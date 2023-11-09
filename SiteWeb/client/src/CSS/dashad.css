@@ -1,0 +1,59 @@
+.charts{
+    display: flex;
+    margin: 1rem;
+}
+.chart-line{
+    padding: 1rem;
+    width: 45%;
+    background-color: white;
+    border-radius: 8px;
+   margin-left: 2rem;
+   box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
+
+}
+.chart-cercle{
+    padding: 1rem;
+  
+    background-color: white;
+    border-radius: 8px;
+   margin-left: 2rem;
+   box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
+
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.values .val-box{
+    background-color: white;
+    width: 253px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
+
+}
+.values .val-box .first-icon{
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    border-radius: 25%;
+    text-align: center;
+    color: white;
+  
+    margin-right: 1rem;
+}
+.values .val-box h3{
+    font-size: 16px;
+    color: #aeb6c1;
+}
+.number{
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,177 @@
+
+
+.search-container{
+  display: flex;
+margin-left: 5rem;
+margin-top: 3rem;
+  align-items: center;}
+  .search-container button{
+ 
+    border-radius:10px;
+
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 14px;
+    margin-right: 5rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+  }
+  .search-container button:hover{
+    color: white;
+  }
+.search-container span{
+margin-left: 10px;
+margin-right: 5rem;
+font-size: 22px;
+margin-right: auto;
+color: #ccc;
+}
+.search-container span:hover{
+  color: #00a36d;
+  
+}
+.search-container select{
+  width: 100px;
+  margin-left: 10px;
+}
+.fetch-input {
+
+  
+  width: 200px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2.8px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+  outline: none;
+  border-radius: 10px;
+}
+
+
+
+#coolMenu,
+#coolMenu ul {
+  list-style: none;
+}
+
+.teachersdrop_container {
+  text-decoration: none;
+
+}
+
+.teachersdrop_container a {
+  text-decoration: none;
+  color: #00a36d;
+  cursor: pointer;
+}
+
+.teachersdrop>li {
+  float: left;
+}
+
+.teachersdrop li {
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1.5em;
+  text-decoration: none;
+}
+
+.teachersdrop {
+  position: absolute;
+  display: none;
+  z-index: 999;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0;
+}
+
+.teachersdrop li {
+  width: 250px;
+
+}
+
+.teachersdrop_container:hover .teachersdrop {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-container .modulestable_container table {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 90%;
+  border-radius: 2rem;
+  padding: 1.8rem;
+  text-align: center;
+  box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  transition: all 300ms ease;
+}
+
+
+
+.arrow--down {
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.tab-container .modulestable_container table tbody td {
+  height: 2.8rem;
+  border-bottom: 1px solid rgba(132, 139, 200, 0.18);
+  color: #677483;
+}
+.actions_buttons{
+  cursor:pointer
+}
+.box-module {
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+  height: 250px;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  
+}
+.sous-box{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.sous-box input{
+   
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2.8px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+  outline: none;
+  border-radius: 10px;
+}
+.close-icon-mod{
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(35% - 25px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}

@@ -1,0 +1,82 @@
+.add-module{
+    border-radius:10px;
+    padding: 8px 28px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+   justify-self: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+}
+.info-perso-prof{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .info-perso-prof input{
+     
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 2.8px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.2s;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .ajouter-prof{
+    border-radius:10px;
+    padding: 5px 28px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+   margin-top: 5px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+}
+  .close-icon-prof {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(35% - 50px);
+    top: calc(100vh - 85vh - 30px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+  .add-prof{
+    border-radius:10px;
+    padding: 8px 28px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+   margin-top: 5px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+}

@@ -1,0 +1,130 @@
+
+
+.modalevent {
+  font-size: 20px;
+ margin-left: 20%;
+ margin-top: 10%;
+ margin-right: 60%;
+  background-color: #44cb81;
+  
+  padding: 10px 24px;
+}
+
+.event-timing{
+  display: flex;
+  flex-direction: row;
+  padding: 10;
+  margin-top: 10;
+}
+.TextField{
+margin-left: 10px;
+}
+
+.Form-container{
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+.msl-option.msl-option-active {
+color: #44cb81;
+
+}
+.Label-root-MuiInputLabel-root{
+color: red;
+}
+label#demo-select-small{
+ 
+}
+fieldset.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline ::focus{
+  border-color: red;
+}
+.MuiButtonBase-root{
+vertical-align: top;
+}
+
+
+li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  display: flex;
+}
+
+.my-input{
+  padding: 6px;
+
+}
+.my-input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit]:hover {
+  background-color: #44cb81;
+  border: 1px solid #44cb81;
+}
+
+
+
+.msl-wrp {
+  width: 00px;
+}
+
+.MuiButton-label{
+
+border: 2px solid #44cb81;
+border-radius: 5px;
+width: 100px;
+
+
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+  visibility: hidden;
+}
+
+
+.addbtn{
+  border: 2px solid #44cb81;
+  transform: translateX(60%);
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: #44cb81;
+    font-weight: 500;
+}
+
+.addbtn:hover{
+  background-color: #44cb81;
+    color: white;
+}
+.my-input:focus { outline-color: #44cb81; }
+
+fieldset.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline:focus{
+  border-color: #44cb81;
+}
+
+.top-part-form{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-part-form{
+  display: flex;
+  flex-direction: column;
+}
+.right-part-form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.timing{
+  margin-top: 10px;
+  margin-left: 8px;
+}

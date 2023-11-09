@@ -1,0 +1,151 @@
+.event-card-body{
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 4px;
+    border-color: #44cb81;
+    border-width: 1px;
+    border-style: solid;
+    
+    height: 55px;
+    font-size: 12px;
+    background-color: #D1F8E2;
+    background: RGBA(209,248,226,0.11)
+
+
+}
+
+
+.left-part{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+
+}
+
+
+.event-card-starttiming{
+    margin-left: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #44cb81;
+    border-radius: 4px;
+}
+
+.event-card-endtiming{
+    margin-left: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #44cb81;
+    border-radius: 4px;
+}
+
+.somespace-div{
+    width: 5px;
+}
+
+
+
+
+.center-part{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.right-part{
+    width: 10%;
+    margin: 8px 8 px ;
+}
+.button-delete-container{
+    background-color: white;
+}
+
+.button-delete{
+    
+    color: tomato;
+    
+}
+.button-delete:hover{
+    
+    background-color: tomato;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color:tomato;
+
+    
+}
+
+
+.ligne1{
+    padding-left: 8px;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    /* justify-content: center; */
+   
+}
+.ligne2{
+padding-left: 8px;
+display: flex;
+float: left;
+font-size: 16px;
+font-weight: bold;
+color: #44cb81;
+
+}
+.ligne3{
+    padding-left: 8px;
+    display: flex;
+flex-direction: row;
+float: left;
+justify-content: space-between;
+color: black;
+font-weight: bold;
+}
+
+
+ 
+
+
+
+.Overlay {
+    
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    
+    
+}
+
+
+/* .ligne1{
+    
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .ligne2{
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+} */

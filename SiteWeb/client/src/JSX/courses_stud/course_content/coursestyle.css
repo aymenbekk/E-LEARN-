@@ -1,0 +1,58 @@
+
+.course-container{
+    margin: 1rem;
+}
+.course-title{
+    color: #32be8f;
+    position: absolute;
+    font-size: 32px;
+    margin-left: 1rem;
+  
+}
+.download-notes{
+    position:absolute;
+    border-radius:10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #aeb6c1; 
+    color: black; 
+    border: 2px solid #aeb6c1;
+right: 2rem;
+margin-top: 2rem;
+}
+.download-notes:hover{
+    color: white;
+}
+.chapters {
+padding-top: 5rem;
+ margin-left: 1.5rem;
+  
+}
+.chapters h2{
+    font-weight: bold;
+    font-size: 1.9rem;
+
+    
+}
+.chapter{
+    border-bottom: 3px solid rgba(132, 139, 200, 0.18);
+    margin-bottom: 1rem;
+}
+/* .cour{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cour a{
+text-decoration: none;
+} */
+.pas-cour{
+    text-align: center;
+padding-top: 15rem;
+ 
+}
+

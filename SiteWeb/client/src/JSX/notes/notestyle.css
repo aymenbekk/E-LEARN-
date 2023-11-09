@@ -1,0 +1,155 @@
+.noty{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    width: 240px;
+    height: 260px;
+
+    border-radius: 25px;
+  
+}
+.note-input{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.note-title{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+.note-bod{
+    flex: 1;
+    margin-top: 1rem;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.note-footer{
+    display: flex; 
+    align-items: center; 
+}
+.note-footer p{
+    margin-right: auto;
+    font-size: 13px;
+    color:white;
+    font-weight: bold;
+}
+ .note-icons{
+    display: flex; 
+     
+}
+.note-icons .delete{
+font-size: 18px;
+margin-left: 1rem;
+cursor: pointer;
+vertical-align: middle;
+
+}
+.delete:hover{
+    color: white;
+}
+.note-icons .save{
+    margin-top: 1px;
+    font-size: 15px;
+    
+    cursor: pointer;
+}
+.save:hover{
+    color: white;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.notes-page{
+    padding-left: 30px;
+}
+.title-notes{
+    color: #32be8f;
+}
+.notes-container{
+    margin-left: 20px;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    row-gap: 1rem;
+}
+.top-part{
+    display: flex;
+    padding-left: 1rem;
+   
+}
+.add-note{
+    margin-left: 2rem;
+    background-color: #aeb6c1;
+    border: 2px solid #aeb6c1 ;
+    color: black;
+    padding: 9px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    transition-duration: 0.4s;
+  cursor: pointer;
+   
+}
+.add-note:hover{
+     background-color: white;
+     border:2px solid #aeb6c1;
+}
+.list{
+display: flex;
+column-gap: 20px;
+align-items: center;
+width: 300px;
+margin-left: 1rem;
+
+}
+.list-closed{
+  width: 0;
+  display: none;
+transition: width 500ms ease-in;
+}
+.color{
+    border-radius: 25%;
+    height: 24px;
+    width: 24px;
+    list-style: none;
+}
+.color:hover{
+    cursor: pointer;
+}
+@media  (max-width: 1220px){
+   .notes-container{
+    grid-template-columns: repeat(3,1fr);
+   }
+}
+@media  (max-width: 900px){
+    .notes-page{
+   
+        margin-left: 1rem;
+       
+    }
+ .notes-container{
+    grid-template-columns: auto auto;
+    
+    margin-left: 0rem;
+  
+   }
+
+}
+@media(max-width: 500px) {
+    .notes-container{
+        grid-template-columns: auto;
+        justify-content: center;
+       }
+       .add-note{
+        padding: 9px 25px;
+        margin-left: 1rem;
+       }
+       .list{
+           margin-left: 2rem;
+       }
+    /* //big tablets */
+}

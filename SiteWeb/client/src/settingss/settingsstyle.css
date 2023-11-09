@@ -1,0 +1,48 @@
+
+.settings-container{
+    padding-top:1rem;
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.settings-container h1{
+    padding-left: 1rem;
+    color: #44cb81;
+}
+.settings-nav{
+    padding-top: 1.5rem;
+    padding-left: 1rem; 
+   text-decoration: none;
+   display: flex;
+   list-style-type: none;
+   }
+.settings-nav li a{
+    cursor: pointer;
+}
+ .link {
+     
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #aeb6c1;
+  }
+ .link-open{
+ 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #44cb81;
+    border-bottom:2px solid #44cb81 ;
+  }
+
+  .info-container{
+      padding-top: 1rem;
+      transition:  2s ease-in;
+     
+  }
+  
+ 

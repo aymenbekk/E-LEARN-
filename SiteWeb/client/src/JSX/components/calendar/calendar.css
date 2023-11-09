@@ -1,0 +1,68 @@
+.addeventbtn {
+    transition-duration: 0.4s;
+    border: 2px solid #44cb81;
+    padding: 10px 24px;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .addeventbtn:hover {
+    background-color: #44cb81; /* Green */
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+    position: relative;
+}
+
+.flex-child {
+    position: relative;
+    flex: 1;
+    border: 2px solid red;
+    border-radius: 3px;
+    margin-left: 5px;
+    height: 630px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}  
+
+.day-title{
+  color: #44cb81;
+}
+.flex-timing {
+   position: relative;
+    width: 140px;
+    border: 2px solid #4CAF50;
+    border-radius: 3px;
+    margin-left: 5px;
+    height: 630px;
+    justify-content: center;
+    text-align: center;
+}  
+
+/* .flex-child:first-child {
+    margin-right: 20px;
+}  */
+
+.flex-child  .add-event-btn{
+     position: absolute;
+	  bottom: 10px;
+    height: auto;
+    left: 50%;
+    margin: auto;
+   transform: translate(-50%);
+}
+
+.event-list{
+  overflow-y:scroll; 
+  position:relative;
+  height: 530px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+    
+}
+

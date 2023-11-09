@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex: 4;
+}
+
+.title-dash{
+    margin-left: 3rem;
+    color: #32be8f;
+}

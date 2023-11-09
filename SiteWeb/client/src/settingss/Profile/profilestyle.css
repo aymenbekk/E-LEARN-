@@ -1,0 +1,124 @@
+.top-info{
+    display: flex;
+}
+.profile-pic{
+    width:150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+   
+}
+.first-info{
+    padding-top: 2.5rem ;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.first-info h2{
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.first-info span{
+    
+    font-size: 13px;
+    color: #aeb6c1;
+    font-family: 'Poppins',sans-serif;;
+}
+.bottom-info{
+    display: grid;
+    grid-template-columns:  auto  auto  ;
+   padding: 10px;
+   margin-top: 2rem;
+   row-gap: 4rem;
+   width: 600px;
+
+   
+}
+.second-info h1{
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.second-info span{
+    font-size: 13px;
+    padding-left: 1rem;
+  padding-top: 10px;
+    color: #aeb6c1;
+    font-family: 'Poppins',sans-serif;;
+}
+.editpass-form input[type=text] {
+    width: 330px;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2.8px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius:10px;
+  }
+  
+  .editpass-form input[type=text]:focus {
+    border: 3px solid #38d39f;
+    
+  }
+  .editpass-form{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      margin-left: 1rem;
+  }
+  .editpass-form label{
+      color:#aeb6c1 ;
+      font-size: 15px;
+      font-family: 'Poppins',sans-serif;
+      
+  }
+  .editpass-container{
+    transition: width 0.2s ease-in;
+  }
+  .buttons{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+  .buttons .button{
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 2rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+ .buttons .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #aeb6c1;
+  }
+  
+  .buttons .button1:hover {
+  
+    color: #aeb6c1;
+  }
+  
+  .buttons .button2 {
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+  }
+  
+  .buttons .button2:hover {
+
+    color: white;
+  }
+  
+@media only screen and (max-width: 600px) {
+    .bottom-info{
+        width: 100%;
+    }  
+}

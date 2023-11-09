@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+body {
+
+  height: 100vh;
+background-color: #f6f6f9;
+
+
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+.container--open {
+
+  background: #00000050;
+  
+}
+.container--closed {
+  padding-top: 15px;
+  margin-left: 80px;
+  transition: margin-left 0.25s ease-in;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container--open {
+    margin-left: 0px;
+  }
+
+  .container--closed {
+    margin-left: 0px;
+  }
+}

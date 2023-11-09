@@ -1,0 +1,8 @@
+
+{
+    "dbURI": "mongodb+srv://basset:projetS2@cluster0.1ake8.mongodb.net/?retryWrites=true&w=majority",
+    "tokenSECRET": "mytokentokensecretcode",
+    "tokenTIME": "1h",
+    "adminEMAIL": "admin@gmail.com",
+    "adminPASSWORD": "admin123"
+}

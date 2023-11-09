@@ -1,0 +1,114 @@
+/* add css module styles here (optional) */
+.tab{
+    width:80%;
+    margin-left:auto ;
+    margin-right:auto;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.2), 0 6px 20px -5px rgba(0, 0, 0, 0.19);
+}
+
+.tab-container{
+  padding-bottom: 1rem;
+}
+.tab-container h1{
+margin-left: 3rem;
+color:#32be8f ;
+}
+ .button2 {
+    background-color: #38d39f; 
+    color: black; 
+    border: 2px solid #38d39f;
+    border-radius:10px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 80%;
+  }
+  
+.button2:hover {
+    background-color: #38d39f;
+    color: white;
+  }
+
+  /* --------------------------------------- */
+  /* Popup style */
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 3
+  }
+
+  .box {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(40% - 45px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+
+  .form-group{
+      display: flex;
+      flex-direction: column;
+  }
+  .button-teach{
+    border: none;
+    border-radius:8px;
+    background-color: white; 
+    color: #999; 
+    border: 2px solid #44cb81;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button-type{
+    border: none;
+    border-radius:8px;
+    background-color: white; 
+    color: #999; 
+    border: 2px solid #44cb81;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  margin-left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
